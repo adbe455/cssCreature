@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    left: 300px;
+    top: 200px;
+    position: relative;
+}
+
+#head{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -10;
+}
+
+#leftEye1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50% 50% 0% 0%;
+    position: relative;
+    left: 150px;
+    top: 175px;
+    z-index: 1;
+}
+
+#leftEye2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 0% 0% 50% 50%;
+    position: relative;
+    left: 150px;
+    top: 175px;
+    z-index: 1;
+}
+
+#rightEye1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50% 50% 0% 0%;
+    position: relative;
+    left: 300px;
+    top: 75px;
+    z-index: 1;
+}
+
+#rightEye2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 0% 0% 50% 50%;
+    position: relative;
+    left: 300px;
+    top: 75px;
+    z-index: 1;
+}
+
+#mouth{
+    width: 200px;
+    height: 200px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: black;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+
+#mouthBlock{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+
+#leftFang{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    z-index: 1;
+    position: relative;
+    left: 50px;
+}
+
+#rightFang{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    z-index: 1;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+}
+
+#hatBaseLeft{
+    width: 75px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    bottom: 300px;
+    transform: rotate(-5deg);
+}
+
+#hatBaseRight{
+    width: 75px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    left: 435px;
+    bottom: 800px;
+    transform: rotate(5deg);
+}
+
+#hatBase{
+    width: 500px;
+    height: 320px;
+    box-shadow: 0px 150px blue;
+    background-color: transparent;
+    position: relative;
+    bottom: 1300px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+
+#hatLeft1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 300px solid blue;
+    position: absolute;
+    left: -80px;
+    top: -250px;
+    transform: rotate(-30deg);
+}
+
+#hatLeft2{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 260px solid blue;
+    position: absolute;
+    left: -160px;
+    top: -190px;
+    transform: rotate(40deg);
+}
+
+#hatRight1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 300px solid blue;
+    position: absolute;
+    left: 380px;
+    top: -250px;
+    transform: rotate(30deg);
+}
+
+#hatRight2{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 260px solid blue;
+    position: absolute;
+    left: 480px;
+    top: -190px;
+    transform: rotate(-40deg);
+}
